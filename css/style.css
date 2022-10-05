@@ -66,6 +66,40 @@ footer.sbarra-finale {
 
 .svg-logo {
     height: 50px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
+
+.prima-lista {
+    list-style-type: none;
+    color: white;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    padding: .5em;
+}
+
+.svg-lista {
+    width: 1.5em;
+    align-items: center;
+}
+
+.span-primo-ul {
+    margin-left: 5px;
+}
+
+.play {
+    margin-left: 20px;
+    color: white;
+}
+
+.span-crea {
+    margin-left: 5px;
+    font-size: x-large;
+}
+
+.più {
+    font-size: 40px;
+}
+
 
