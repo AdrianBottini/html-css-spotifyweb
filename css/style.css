@@ -12,12 +12,14 @@ body {
 }
 
 header.barra {
-    background-color: red;
+    background-color: #342f2f;
     height: 100px;
     position: fixed;
     right: 0;
     top: 0;
     left: 20%;
+    display: flex;
+    justify-content: end;
 }
 
 main.main-content {
@@ -28,7 +30,7 @@ main.main-content {
 }
 
 main.main-content aside.sidebar {
-    background-color: orange;
+    background-color: black;
     flex-basis: 20%;
     height: calc(100vh - 100px );
     position: fixed;
@@ -70,13 +72,32 @@ footer.sbarra-finale {
     margin-left: 10px;
 }
 
+.btn-iniziale {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 30px;
+    width: 200px;
+    text-align: center;
+    height: 50%;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
 .prima-lista {
     list-style-type: none;
     color: white;
     margin-left: 10px;
     display: flex;
     align-items: center;
-    padding: .5em;
+    padding: 1em;
+}
+
+.none {
+    text-decoration: none;
+    color: white;
 }
 
 .svg-lista {
@@ -91,11 +112,13 @@ footer.sbarra-finale {
 .play {
     margin-left: 20px;
     color: white;
+    padding: 10px;
 }
 
 .span-crea {
     margin-left: 5px;
     font-size: x-large;
+    align-items: center;
 }
 
 .più {
