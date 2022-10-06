@@ -23,7 +23,7 @@ header.barra {
 }
 
 main.main-content {
-    background-color: grey;
+    background-color: rgb(19, 13, 71);
     flex-grow: 1;
     display: flex;
     flex-direction: row;
@@ -49,7 +49,7 @@ main.main-content aside.sidebar {
 }
 
 .main.main-content .content {
-    background-color: grey;
+    background-color: rgb(19, 13, 71);
     flex-basis: 65%;
     display: flex;
     flex-direction: row;
@@ -142,10 +142,20 @@ img {
 
 .cards {
     display: flex;
-    flex-wrap: wrap;
+    width: calc(100% / 6 - 20px);
 }
 
 h1 {
     color: white;
     margin-left: 10px;
+}
+
+.h2 {
+    color: white;
+    text-align: center;
+}
+
+.sottotitolo {
+    text-align: center;
+    color: grey;
 }
