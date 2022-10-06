@@ -184,3 +184,21 @@ h1 {
     width: 200px;
     margin-left: 10px;
 }
+
+.terze-img {
+    display: flex;
+    margin-top: 50px;
+}
+
+.terze-img img {
+    width: 200px;
+    margin-left: 10px;
+    aspect-ratio: 1 / 1;
+    border-radius: 100px;
+}
+
+.istalla {
+    padding-top: 200px;
+    /* border-bottom: 1px solid #717171; */
+}
+
