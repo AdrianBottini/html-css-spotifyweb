@@ -124,9 +124,8 @@ footer.sbarra-finale {
     font-size: 40px;
 }
 
-img {
-    width: 250px;
-    padding: 10px;
+.box img {
+    width: 100%;
 }
 
 .navigazione {
@@ -142,7 +141,12 @@ img {
 
 .cards {
     display: flex;
-    width: calc(100% / 6 - 20px);
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.box {
+    flex-basis: ;
 }
 
 h1 {
