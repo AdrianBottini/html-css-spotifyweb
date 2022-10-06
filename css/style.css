@@ -91,7 +91,7 @@ footer.sbarra-finale {
     margin-left: 10px;
     display: flex;
     align-items: center;
-    padding: 1em;
+    padding: 0.6em;
 }
 
 .none {
@@ -145,3 +145,7 @@ img {
     flex-wrap: wrap;
 }
 
+h1 {
+    color: white;
+    margin-left: 10px;
+}
