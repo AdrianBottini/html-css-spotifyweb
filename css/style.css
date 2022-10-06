@@ -12,7 +12,7 @@ body {
 }
 
 header.barra {
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(8, 11, 18, .2);
     height: 100px;
     position: fixed;
     right: 0;
@@ -20,10 +20,11 @@ header.barra {
     left: 20%;
     display: flex;
     justify-content: end;
+    z-index: 11;
 }
 
 main.main-content {
-    background-color: rgb(19, 13, 71);
+    background-color: #141922;
     flex-grow: 1;
     display: flex;
     flex-direction: row;
@@ -41,11 +42,11 @@ main.main-content aside.sidebar {
 
 .content {
     position: fixed;
-    top: 100px;
     left: 20%;
     width: 80%;
-    height: calc(100% - 20%);
+    height: calc(100% - 100px);
     overflow: auto;
+    padding-top: 100px;
 }
 
 .main.main-content .content {
@@ -61,7 +62,7 @@ main.main-content aside.sidebar {
 }
 
 footer.sbarra-finale {
-    background-color: blue;
+    background-color: #282828;
     height: 100px;
 }
 
@@ -96,7 +97,7 @@ footer.sbarra-finale {
 
 .none {
     text-decoration: none;
-    color: white;
+    color: #717171;
 }
 
 .svg-lista {
@@ -135,7 +136,7 @@ footer.sbarra-finale {
 
 .nav {
     text-decoration: none;
-    color: white;
+    color: #717171;
     padding: 10px;
 }
 
@@ -143,23 +144,43 @@ footer.sbarra-finale {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    gap: 10px;
 }
 
 .box {
-    flex-basis: ;
+    flex-basis: calc((100% / 6) - 50px / 5 );
 }
 
 h1 {
     color: white;
     margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .h2 {
     color: white;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .sottotitolo {
     text-align: center;
-    color: grey;
+    color: #717171;
+}
+
+.sotto {
+    color: #717171;
+    margin-left: 10px;
+}
+
+.seconde-img {
+    display: flex;
+    margin-top: 50px;
+}
+
+.seconde-img img {
+    width: 200px;
+    margin-left: 10px;
 }
