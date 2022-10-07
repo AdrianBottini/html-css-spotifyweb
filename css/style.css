@@ -239,6 +239,51 @@ h1 {
     cursor: pointer;
 }
 
+.footer-img {
+    width: 50px;
+}
+
+.footer {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.foot {
+    padding: 20px;
+    font-size: 20px;
+    color: #717171;
+}
+
+.foot:hover {
+    color: white;
+}
+
+h4 {
+    color: white;
+    margin-left: 10px;
+}
+
+.scritte {
+    margin-top: 5px;
+}
+
+.barra {
+    width: 500px;
+    height: 5px;
+    background-color: #717171;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.footer2 {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 20px;
+    color: #717171;
+}
+
 @media (max-width: 552px) {
     .span-primo-ul {
         display: none;
