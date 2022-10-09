@@ -67,6 +67,8 @@ main.main-content aside.sidebar {
 footer.sbarra-finale {
     background-color: #282828;
     height: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .svg-logo {
@@ -110,6 +112,7 @@ footer.sbarra-finale {
     text-decoration: none;
     color: #717171;
     margin-top: 5px;
+    font-size: smaller;
 }
 
 .svg-lista {
@@ -307,6 +310,12 @@ h4 {
     margin-right: 20px;
 }
 
+@media (max-width: 920px) {
+    .box {
+        flex-basis: calc((100% / 4) - 50px / 3 );
+    }
+}
+
 @media (max-width: 552px) {
     .span-primo-ul {
         display: none;
@@ -326,5 +335,31 @@ h4 {
 
     .play {
         display: none;
+    }
+
+    .box {
+        flex-basis: calc((100% / 2) - 50px / 3 );
+    }
+
+    .navigazione {
+        font-size: xx-small;
+    }
+}
+
+@media (max-width: 663px) {
+    .box {
+        flex-basis: calc((100% / 2) - 50px / 3 );
+    }
+
+    .play {
+        font-size: small;
+    }
+
+    .prima-lista {
+        font-size: x-small;
+    }
+
+    .navigazione {
+        font-size: xx-small;
     }
 }
